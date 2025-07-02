@@ -24,7 +24,7 @@
     normal-background:           rgba(36, 40, 59, 0.06);
     lightfg:                     rgba(200, 210, 255, 1);     /* bright dim text */
     selected-normal-background:  rgba(65, 72, 104, 1);       /* #414868 */
-    border-color:                @foreground;
+    border-color:                @bordercolor;
     spacing:                     2;
     separatorcolor:              rgba(65, 72, 104, 1);
     urgent-background:           rgba(26, 27, 38, 1);        /* #1a1b26 */
