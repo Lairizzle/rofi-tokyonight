@@ -19,7 +19,7 @@
     selected-active-foreground:  rgba(125, 207, 255, 1);
     alternate-active-background: rgba(36, 40, 59, 1);
     background:                  rgba(26, 27, 38, 0.93);     /* #1a1b26 */
-    bordercolor:                 rgba(65, 72, 104, 1);       /* #414868 */
+    bordercolor:                 rgba(125, 207, 255, 1);     /* #7dcfff */
     alternate-normal-foreground: @foreground;
     normal-background:           rgba(36, 40, 59, 0.06);
     lightfg:                     rgba(200, 210, 255, 1);     /* bright dim text */
