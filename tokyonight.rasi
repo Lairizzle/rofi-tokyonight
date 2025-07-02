@@ -1,22 +1,22 @@
 /**
- * ROFI Color Theme — Tokyo Night (Bright Font)
+ * ROFI Color Theme — Tokyo Night (Light Blue Highlights)
  * Inspired by the Night variant of Tokyo Night
  * Font brightness increased for better visibility
  */
 
 * {
-    selected-normal-foreground:  rgba(224, 234, 252, 1);     /* bright */
+    selected-normal-foreground:  rgba(125, 207, 255, 1);     /* blue highlight */
     foreground:                  rgba(224, 234, 252, 1);     /* bright */
     normal-foreground:           @foreground;
     alternate-normal-background: rgba(36, 40, 59, 1);        /* #24283b */
     red:                         rgba(247, 118, 142, 1);     /* #f7768e */
-    selected-urgent-foreground:  rgba(224, 234, 252, 1);     /* bright */
-    blue:                        rgba(122, 162, 247, 1);     /* #7aa2f7 */
+    selected-urgent-foreground:  rgba(125, 207, 255, 1);     /* bright blue */
+    blue:                        rgba(125, 207, 255, 1);     /* #7dcfff */
     urgent-foreground:           rgba(247, 118, 142, 1);     /* #f7768e */
     alternate-urgent-background: rgba(36, 40, 59, 1);        /* #24283b */
-    active-foreground:           rgba(255, 209, 123, 1);     /* bright yellow */
+    active-foreground:           rgba(125, 207, 255, 1);     /* blue */
     lightbg:                     rgba(217, 222, 239, 1);
-    selected-active-foreground:  rgba(255, 209, 123, 1);
+    selected-active-foreground:  rgba(125, 207, 255, 1);
     alternate-active-background: rgba(36, 40, 59, 1);
     background:                  rgba(26, 27, 38, 0.93);     /* #1a1b26 */
     bordercolor:                 rgba(65, 72, 104, 1);       /* #414868 */
@@ -33,7 +33,7 @@
     background-color:            rgba(0, 0, 0, 0);
     alternate-active-foreground: @active-foreground;
     active-background:           rgba(26, 27, 38, 1);
-    selected-active-background:  rgba(224, 175, 104, 1);     /* #e0af68 */
+    selected-active-background:  rgba(65, 72, 104, 1);       /* #414868 */
 }
 
 window {
@@ -145,4 +145,10 @@ textbox-prompt-colon {
     margin:     0px 0.3em 0em 0em ;
     text-color: @normal-foreground;
 }
-
+scrollbar {
+    width:        4px;
+    border:       0;
+    handle-width: 8px;
+    padding:      0;
+    handle-color: rgba(125, 207, 255, 0.8);  /* bright blue scrollbar handle */
+}
