@@ -1,8 +1,8 @@
-/**
- * ROFI Color Theme — Tokyo Night (Light Blue Highlights)
- * Inspired by the Night variant of Tokyo Night
- * Font brightness increased for better visibility
- */
+/*******************************************************************************
+ * ROFI Color theme
+ * User: Lairizzle
+ * Copyright: Lairizzle
+ ********************************************************************************/
 
 * {
     selected-normal-foreground:  rgba(125, 207, 255, 1);     /* blue highlight */
@@ -151,7 +151,4 @@ scrollbar {
     handle-width: 8px;
     padding:      0;
     handle-color: rgba(125, 207, 255, 0.8);  /* bright blue scrollbar handle */
-}
-@theme {
-    name: "tokyonight by lairizzle";
 }
