@@ -152,3 +152,6 @@ scrollbar {
     padding:      0;
     handle-color: rgba(125, 207, 255, 0.8);  /* bright blue scrollbar handle */
 }
+@theme {
+    name: "tokyonight by lairizzle";
+}
