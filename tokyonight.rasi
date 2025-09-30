@@ -38,8 +38,11 @@
 
 window {
     background-color: @background;
-    border:           1;
+    border:           2;
+		border-radius:		8px;
     padding:          5;
+		width:						20%;
+		height:						20%;
 }
 mainbox {
     border:  0;
